@@ -15,7 +15,7 @@ body {
 
 body {
     overflow: hidden;
-    background: #0d0d0d url("/assets/img/monstera.png") no-repeat right bottom;
+    background: #0d0d0d url("../img/monstera.png") no-repeat right bottom;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
