@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    background: #0d0d0d url("/assets/img/monstera.png") no-repeat right bottom;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+h1 {
+    overflow-wrap: break-word;
+}
+
+.wrapper {
+    padding: 0 8em;
+}
+
+a {
+    display: inline-block;
+    width: fit-content;
+    padding-top: 3em;
+}
+
+.content {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    height: 100svh;
+    width: fit-content;
+}
+
+.content img {
+    position: absolute;
+    top: -282px;
+    left: 187px;
+}
+
+h1 {
+    position: relative;
+    color: #FFA800;
+    font-size: 6.5rem;
+    font-weight: 900;
+    line-height: 88.9%;
+    letter-spacing: 1.5rem;
+    width: 27ch;
+}
+
+.content p {
+    color: #E6E6E6;
+    font-size: 2rem;
+    width: 37ch;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+h1,
+.content p {
+    mix-blend-mode: difference;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 580px;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    height: 124px;
+    background-color: #1A1A1A;
+    text-align: center;
+}
+
+footer p {
+    color: #808080;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
