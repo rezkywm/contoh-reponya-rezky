@@ -53,8 +53,8 @@ a {
 
 .content img {
     position: absolute;
-    top: -281px;
-    left: 210px;
+    top: -283px;
+    left: 111px;
 }
 
 h1 {
@@ -63,7 +63,7 @@ h1 {
     font-size: 6.5rem;
     font-weight: 900;
     line-height: 88.9%;
-    letter-spacing: 1.5rem;
+    letter-spacing: -0.4rem;
     width: 27ch;
 }
 
